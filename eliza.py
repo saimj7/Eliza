@@ -67,7 +67,7 @@ def main():
       translated_sentence = translated_sentence[:-1]
 
     res = speaker.response(translated_sentence)
-    print("\n[Eliza]: ", res, '|', f"(In {curr_lang}: {translator.translate(res, lang_tgt = curr_lang)}")
+    print("\n[Eliza]: ", res, '|', f"In {curr_lang}: {translator.translate(res, lang_tgt = curr_lang)}")
 
 if __name__ == "__main__":
   main()

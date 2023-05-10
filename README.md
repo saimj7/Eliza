@@ -32,7 +32,7 @@ We detect the input language using langdetect and translate using google_trans_n
 
 [Info] Your input language is: sv
 
-[Eliza]:  How do you feel when you say that? | (In sv: Hur mår du när du säger det?
+[Eliza]:  How do you feel when you say that? | In sv: Hur mår du när du säger det?
 [You]:
 
 ```
